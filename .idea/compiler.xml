@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for microservice-parent" enabled="true">
+        <sourceOutputDir name="../microservice-consumer-movie-without-eureka/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../microservice-consumer-movie-without-eureka/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consumer-movie-ribbon (1)" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consumer-movie" />
+        <module name="microservice-consumer-movie-feign" />
+        <module name="microservice-consumer-movie-feign-customizing" />
+        <module name="microservice-consumer-movie-ribbon (2)" />
+        <module name="microservice-consumer-movie-ribbon-customizing" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-provider-user" />
+        <module name="microservice-provider-user-ip" />
+        <module name="microservice-provider-user-multiple-params" />
+        <module name="microservice-provider-user-my-metadata" />
+        <module name="microservice-provider-user-with-auth" />
+        <module name="microservice-simple-consumer-movie" />
+        <module name="microservice-simple-provider-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-consumer-movie-feign" target="1.8" />
+      <module name="microservice-consumer-movie-feign-customizing" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon (1)" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon (2)" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-customizing" target="1.8" />
+      <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-parent" target="1.5" />
+      <module name="microservice-provider-user" target="1.8" />
+      <module name="microservice-provider-user-ip" target="1.8" />
+      <module name="microservice-provider-user-multiple-params" target="1.8" />
+      <module name="microservice-provider-user-my-metadata" target="1.8" />
+      <module name="microservice-provider-user-with-auth" target="1.8" />
+      <module name="microservice-simple-consumer-movie" target="1.8" />
+      <module name="microservice-simple-provider-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

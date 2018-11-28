@@ -15,8 +15,6 @@
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-provider-user" />
         <module name="microservice-provider-user-ip" />
-        <module name="microservice-provider-user-multiple-params" />
-        <module name="microservice-provider-user-my-metadata" />
         <module name="microservice-provider-user-with-auth" />
         <module name="microservice-simple-consumer-movie" />
         <module name="microservice-simple-provider-user" />
@@ -25,7 +23,6 @@
         <sourceOutputDir name="../microservice-consumer-movie-without-eureka/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../microservice-consumer-movie-without-eureka/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservice-consumer-movie-ribbon (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

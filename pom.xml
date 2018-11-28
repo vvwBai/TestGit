@@ -17,8 +17,6 @@
     <module>microservice-discovery-eureka-ha</module>
     <module>microservice-provider-user</module>
     <module>microservice-provider-user-ip</module>
-    <module>microservice-provider-user-multiple-params</module>
-    <module>microservice-provider-user-my-metadata</module>
     <module>microservice-provider-user-with-auth</module>
     <module>microservice-simple-consumer-movie</module>
     <module>microservice-simple-provider-user</module>

@@ -20,6 +20,7 @@ import java.util.Collection;
 public class UserController {
   @Autowired
   private UserRepository userRepository;
+
   private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 
   @GetMapping("/{id}")

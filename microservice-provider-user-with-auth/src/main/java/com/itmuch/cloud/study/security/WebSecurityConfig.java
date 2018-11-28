@@ -52,10 +52,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
         @Override
         public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
             if("user".equals(username)){
-                System.out.println("user:"+username);
                 return new SecurityUser("user","password1","user-role");
             }else if("admin".equals(username)){
-                return new SecurityUser("admin","password2","user-role");
+                return new SecurityUser("admin","password2","admin-role");
             }else{
                 return null;
             }
@@ -87,6 +86,23 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 
         }
 
+
+        public void setId(long id) {
+            this.id = id;
+        }
+
+        public void setUsername(String username) {
+            this.username = username;
+        }
+
+        public void setPassword(String password) {
+            this.password = password;
+        }
+
+        public void setRole(String role) {
+            this.role = role;
+        }
+
         public long getId() {
             return id;
         }
@@ -107,22 +123,22 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 
         @Override
         public boolean isAccountNonExpired() {
-            return false;
+            return true;
         }
 
         @Override
         public boolean isAccountNonLocked() {
-            return false;
+            return true;
         }
 
         @Override
         public boolean isCredentialsNonExpired() {
-            return false;
+            return true;
         }
 
         @Override
         public boolean isEnabled() {
-            return false;
+            return true;
         }
     }
 

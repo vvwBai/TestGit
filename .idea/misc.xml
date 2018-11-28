@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-provider-user-with-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-loggin/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -5,19 +5,23 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/microservice-consumer-movie-feign-customizing.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/microservice-consumer-movie-feign-customizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/microservice-consumer-movie-feign-hystrix-fallback.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/microservice-consumer-movie-feign-hystrix-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-factory/microservice-consumer-movie-feign-hystrix-fallback-factory.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-factory/microservice-consumer-movie-feign-hystrix-fallback-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-stream/microservice-consumer-movie-feign-hystrix-fallback-stream.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-stream/microservice-consumer-movie-feign-hystrix-fallback-stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-loggin/microservice-consumer-movie-feign-loggin.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-loggin/microservice-consumer-movie-feign-loggin.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-without-eureka/microservice-consumer-movie-ribbon (2).iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/microservice-consumer-movie-ribbon (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/microservice-consumer-movie-ribbon-customizing.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/microservice-consumer-movie-ribbon-customizing.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/microservice-consumer-movie-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/microservice-consumer-movie-ribbon-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-parent.iml" filepath="$PROJECT_DIR$/microservice-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-ip/microservice-provider-user-ip.iml" filepath="$PROJECT_DIR$/microservice-provider-user-ip/microservice-provider-user-ip.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-multiple-params/microservice-provider-user-multiple-params.iml" filepath="$PROJECT_DIR$/microservice-provider-user-multiple-params/microservice-provider-user-multiple-params.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-with-auth/microservice-provider-user-with-auth.iml" filepath="$PROJECT_DIR$/microservice-provider-user-with-auth/microservice-provider-user-with-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicehystrixdashboard.iml" filepath="$PROJECT_DIR$/microservicehystrixdashboard.iml" />
     </modules>
   </component>
 </project>

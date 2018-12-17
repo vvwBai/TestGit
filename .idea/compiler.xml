@@ -9,12 +9,15 @@
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-feign" />
         <module name="microservice-consumer-movie-feign-customizing" />
+        <module name="microservice-consumer-movie-feign-hystrix-fallback" />
+        <module name="microservice-consumer-movie-feign-hystrix-fallback-factory" />
+        <module name="microservice-consumer-movie-feign-hystrix-fallback-stream" />
         <module name="microservice-consumer-movie-feign-loggin" />
-        <module name="microservice-consumer-movie-ribbon (2)" />
         <module name="microservice-consumer-movie-ribbon-customizing" />
         <module name="microservice-consumer-movie-ribbon-hystrix" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-hystrix-dashboard" />
         <module name="microservice-provider-user" />
         <module name="microservice-provider-user-ip" />
         <module name="microservice-provider-user-multiple-params" />
@@ -22,11 +25,20 @@
         <module name="microservice-simple-consumer-movie" />
         <module name="microservice-simple-provider-user" />
       </profile>
+      <profile name="Annotation profile for microservice-parent" enabled="true">
+        <sourceOutputDir name="../microservice-consumer-movie-ribbon/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../microservice-consumer-movie-ribbon/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consumer-movie-ribbon (2)" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-consumer-movie-feign" target="1.8" />
       <module name="microservice-consumer-movie-feign-customizing" target="1.8" />
+      <module name="microservice-consumer-movie-feign-hystrix-fallback" target="1.8" />
+      <module name="microservice-consumer-movie-feign-hystrix-fallback-factory" target="1.8" />
+      <module name="microservice-consumer-movie-feign-hystrix-fallback-stream" target="1.8" />
       <module name="microservice-consumer-movie-feign-loggin" target="1.8" />
       <module name="microservice-consumer-movie-feign-multiple-params" target="1.8" />
       <module name="microservice-consumer-movie-ribbon (1)" target="1.8" />
@@ -35,6 +47,7 @@
       <module name="microservice-consumer-movie-ribbon-hystrix" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-hystrix-dashboard" target="1.8" />
       <module name="microservice-parent" target="1.5" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="microservice-provider-user-ip" target="1.8" />
@@ -43,6 +56,7 @@
       <module name="microservice-provider-user-with-auth" target="1.8" />
       <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
+      <module name="microservicehystrixdashboard" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

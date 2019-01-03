@@ -18,6 +18,7 @@
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbine2" />
         <module name="microservice-provider-user" />
         <module name="microservice-provider-user-ip" />
         <module name="microservice-provider-user-multiple-params" />
@@ -48,6 +49,8 @@
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
+      <module name="microservice-hystrix-turbine" target="1.8" />
+      <module name="microservice-hystrix-turbine2" target="1.8" />
       <module name="microservice-parent" target="1.5" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="microservice-provider-user-ip" target="1.8" />
@@ -58,5 +61,10 @@
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservicehystrixdashboard" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microservice-hystrix-turbine" options="" />
+    </option>
   </component>
 </project>

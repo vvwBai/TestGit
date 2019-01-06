@@ -12,11 +12,16 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-factory/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback-stream/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-turbine2/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-multiple-params/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-turbine-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-turbine-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-provider-user-my-metadata/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </set>

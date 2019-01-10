@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-turbine-mq/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-turbine-mq/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-file-upload/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

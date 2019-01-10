@@ -21,6 +21,7 @@
         <module name="microservice-consumer-movie-without-eureka" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-file-upload" />
         <module name="microservice-gateway-zuul" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-hystrix-turbine-mq" />
@@ -51,6 +52,7 @@
       <module name="microservice-consumer-movie-without-eureka" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-file-upload" target="1.8" />
       <module name="microservice-gateway-zuul" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
       <module name="microservice-hystrix-turbine-mq" target="1.8" />

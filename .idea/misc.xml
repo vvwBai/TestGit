@@ -19,6 +19,9 @@
         <option value="$PROJECT_DIR$/microservice-hystrix-turbine-mq/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-sidecar/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

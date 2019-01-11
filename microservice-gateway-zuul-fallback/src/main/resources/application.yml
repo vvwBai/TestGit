@@ -1,0 +1,20 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: microservice-gateway-zuul-fallback
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  security:
+    enabled: false
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 600000
+ribbon:
+    ConnectTimeout: 30000
+    ReadTimeout: 600000
+zuul:
+  ribbon:
+    eager-load:
+      enabled: true

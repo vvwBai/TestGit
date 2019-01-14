@@ -17,7 +17,6 @@ public class AggregationService {
     public Observable<User> getUserById(Long id){
 
         return Observable.create(observer -> {
-
             User user = restTemplate.getForObject("http://microservice-provider-user/{id}", User.class, id);
             observer.onNext(user);
             observer.onCompleted();
@@ -35,6 +34,13 @@ public class AggregationService {
             observer.onCompleted();
 
         });
+    }
+
+
+    public User fallback(Long id){
+        User user = new User();
+        user.setId(-1L);
+        return user;
     }
 
 

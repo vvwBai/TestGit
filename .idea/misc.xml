@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-fallback/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-sidecar/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

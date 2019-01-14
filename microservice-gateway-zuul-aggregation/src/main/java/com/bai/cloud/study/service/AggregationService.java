@@ -14,6 +14,8 @@ public class AggregationService {
     @Autowired
     private RestTemplate restTemplate;
 
+    //
+    @HystrixCommand(fallbackMethod = "fallback")
     public Observable<User> getUserById(Long id){
 
         return Observable.create(observer -> {
@@ -21,7 +23,6 @@ public class AggregationService {
             observer.onNext(user);
             observer.onCompleted();
         });
-
     }
 
 

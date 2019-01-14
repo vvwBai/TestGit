@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/microservice-consumer-movie-feign-customizing.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/microservice-consumer-movie-feign-customizing.iml" />
@@ -20,6 +21,8 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-file-upload/microservice-file-upload.iml" filepath="$PROJECT_DIR$/microservice-file-upload/microservice-file-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-aggregation/microservice-gateway-zuul-aggregation.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/microservice-gateway-zuul-aggregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-aggregation/microservice-gateway-zuul-aggregation.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/microservice-gateway-zuul-aggregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine-mq.iml" />
@@ -28,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-ip/microservice-provider-user-ip.iml" filepath="$PROJECT_DIR$/microservice-provider-user-ip/microservice-provider-user-ip.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-multiple-params/microservice-provider-user-multiple-params.iml" filepath="$PROJECT_DIR$/microservice-provider-user-multiple-params/microservice-provider-user-multiple-params.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-with-auth/microservice-provider-user-with-auth.iml" filepath="$PROJECT_DIR$/microservice-provider-user-with-auth/microservice-provider-user-with-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-sidecar/microservice-sidecar.iml" filepath="$PROJECT_DIR$/microservice-sidecar/microservice-sidecar.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-sidecar/microservice-sidecar.iml" filepath="$PROJECT_DIR$/microservice-sidecar/microservice-sidecar.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user.iml" />

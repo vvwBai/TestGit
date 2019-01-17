@@ -23,6 +23,13 @@
         <option value="$PROJECT_DIR$/microservice-sidecar/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-encryption/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-encryption-rsa/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-client-refresh/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
